@@ -14,3 +14,30 @@ Este projeto tem como objetivo principal aprofundar o entendimento sobre transa√
 - [Lombok]()
 - [MySQL](https://www.mysql.com)
 
+
+A API poder√° ser acessada em [localhost:8081](http://localhost:8081).
+
+## API Endpoints
+
+
+```
+http POST :8081/bookFlightTicket
+
+
+{
+  passengerInfo: {
+    "name": "basant",
+    "email": "basant@gmail.com",
+    "source": "Bangalore",
+    "destination": "BBSR",
+    "travelDate": "12-28-2023",
+    "pickupTime": "4.0 AM",
+    "arrivalTime": "6.0 PM",
+    "fare": "18000.0",
+  }
+  "paymentInfo": {
+    "accountNo": "acc1",
+    "cardType": "DEBIT"
+  }
+}
+```
