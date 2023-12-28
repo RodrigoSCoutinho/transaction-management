@@ -7,9 +7,11 @@ import br.com.rodrigoscoutino.transactionmanagement.dto.FlightBookingRequest;
 import br.com.rodrigoscoutino.transactionmanagement.service.FlightBookingService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+@EnableTransactionManagement
 @RestController
 public class FlightController {
 
