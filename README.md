@@ -3,11 +3,15 @@
 </h1>
 
 <p>
-Este projeto tem como objetivo principal aprofundar o entendimento sobre transações no contexto de aplicações em tempo real, explorando como as transações são gerenciadas e executadas em um ambiente dinâmico, além de fornecer uma base sólida para o estudo e prática de implementações em tempo real.
+PT-BR | Este projeto tem como objetivo principal aprofundar o entendimento sobre transações no contexto de aplicações em tempo real, explorando como as transações são gerenciadas e executadas em um ambiente dinâmico, além de fornecer uma base sólida para o estudo e prática de implementações em tempo real.
+</p>
+
+<p>
+ENGLISH-USA | The main goal of this project is to deepen the understanding of transactions in the context of real-time applications, exploring how transactions are managed and executed in a dynamic environment. Furthermore, it provides a solid foundation for the study and practical implementation of real-time scenarios.
 </p>
 
 
-## Tecnologias
+## Technologies
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Data JDBC](https://spring.io/projects/spring-data-jdbc)
